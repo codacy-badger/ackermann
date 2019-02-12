@@ -5,3 +5,7 @@ script:
   - npm run lint
   - npm test
   - npm run coverage
+deploy:
+  provider: npm
+  email: $EMAIL_ADDRESS
+  api_key: $NPM_API_KEY
