@@ -1,4 +1,4 @@
-const ackermann = require('./index')
+var ackermann = require('./index')
 
 test('calculates (0,0) to equal 1', () => {
   expect(ackermann(0,0)).toBe(1);
