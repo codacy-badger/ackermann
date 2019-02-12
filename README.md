@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.com/ericheayn/ackermann.svg?branch=master)](https://travis-ci.com/ericheayn/ackermann)
-
 # Ackermann Function
+
+[![Build Status](https://travis-ci.com/ericheayn/ackermann.svg?branch=master)](https://travis-ci.com/ericheayn/ackermann)
 
 https://en.wikipedia.org/wiki/Ackermann_function
