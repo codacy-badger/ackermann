@@ -4,14 +4,21 @@
   "description": "https://en.wikipedia.org/wiki/Ackermann_function",
   "main": "index.js",
   "scripts": {
-    "test": "jest --config config.json --coverage"
+    "test": "jest --coverage",
+    "coverage": "cat ./test/coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ericheayn/ackermann.git"
   },
-  "keywords": [],
-  "author": "",
+  "jest": {
+    "verbose": true,
+    "testMatch": ["<rootDir>/test/unit/*.test.js"],
+    "moduleFileExtensions": ["js"],
+    "collectCoverageFrom": ["<rootDir>/src/*"]
+  },
+  "keywords": ["ackermann"],
+  "author": "Eric Heayn",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ericheayn/ackermann/issues"

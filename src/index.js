@@ -6,7 +6,7 @@ function ackermann (m, n) {
   } else if(m > 0 && n > 0) {
     return ackermann(m - 1, ackermann(m, n - 1))
   } else {
-    return 'Error! Please enter valid input.'
+    throw new Error('Invalid input')
   }
 }
 

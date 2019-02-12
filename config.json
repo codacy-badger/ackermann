@@ -1,5 +1,0 @@
-{
-  "testMatch": ["<rootDir>/*.test.js"],
-  "moduleFileExtensions": ["js"],
-  "collectCoverageFrom": ["index.js"]
-}
