@@ -4,7 +4,7 @@
   "description": "https://en.wikipedia.org/wiki/Ackermann_function",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+    "test": "jest --config config.json --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
