@@ -2,21 +2,7 @@
   "name": "ackermann",
   "version": "1.0.0",
   "description": "https://en.wikipedia.org/wiki/Ackermann_function",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest --coverage",
-    "coverage": "cat ./test/coverage/lcov.info | coveralls"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ericheayn/ackermann.git"
-  },
-  "jest": {
-    "verbose": true,
-    "testMatch": ["<rootDir>/test/unit/*.test.js"],
-    "moduleFileExtensions": ["js"],
-    "collectCoverageFrom": ["<rootDir>/src/*"]
-  },
+  "main": "src/index.js",
   "keywords": ["ackermann"],
   "author": "Eric Heayn",
   "license": "MIT",
@@ -24,6 +10,22 @@
     "url": "https://github.com/ericheayn/ackermann/issues"
   },
   "homepage": "https://github.com/ericheayn/ackermann#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericheayn/ackermann.git"
+  },
+  "scripts": {
+    "test": "jest --coverage",
+    "coverage": "cat ./test/coverage/lcov.info | coveralls",
+    "lint": ""
+  },
+  "jest": {
+    "verbose": true,
+    "testMatch": ["<rootDir>/test/unit/*.test.js"],
+    "moduleFileExtensions": ["js"],
+    "collectCoverageFrom": ["<rootDir>/src/*"],
+    "coverageDirectory": "<rootDir>/test/coverage/"
+  },
   "devDependencies": {
     "coveralls": "^3.0.2",
     "jest": "^24.1.0"
