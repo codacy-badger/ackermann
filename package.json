@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "https://en.wikipedia.org/wiki/Ackermann_function",
   "main": "src/index.js",
-  "keywords": ["ackermann"],
+  "keywords": [
+    "ackermann"
+  ],
   "author": "Eric Heayn",
   "license": "MIT",
   "bugs": {
@@ -17,17 +19,29 @@
   "scripts": {
     "test": "jest --coverage",
     "coverage": "cat ./test/coverage/lcov.info | coveralls",
-    "lint": ""
+    "lint": "eslint ./src"
   },
   "jest": {
     "verbose": true,
-    "testMatch": ["<rootDir>/test/unit/*.test.js"],
-    "moduleFileExtensions": ["js"],
-    "collectCoverageFrom": ["<rootDir>/src/*"],
+    "testMatch": [
+      "<rootDir>/test/unit/*.test.js"
+    ],
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "collectCoverageFrom": [
+      "<rootDir>/src/*"
+    ],
     "coverageDirectory": "<rootDir>/test/coverage/"
   },
   "devDependencies": {
     "coveralls": "^3.0.2",
+    "eslint": "^5.13.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
     "jest": "^24.1.0"
   }
 }
