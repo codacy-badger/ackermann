@@ -1,5 +1,5 @@
 {
-  "name": "ackermann",
+  "name": "@erk/ackermann",
   "version": "1.0.0",
   "description": "https://en.wikipedia.org/wiki/Ackermann_function",
   "main": "src/index.js",
@@ -33,6 +33,9 @@
       "<rootDir>/src/*"
     ],
     "coverageDirectory": "<rootDir>/test/coverage/"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "coveralls": "^3.0.2",
