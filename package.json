@@ -1,0 +1,23 @@
+{
+  "name": "ackermann",
+  "version": "1.0.0",
+  "description": "https://en.wikipedia.org/wiki/Ackermann_function",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericheayn/ackermann.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericheayn/ackermann/issues"
+  },
+  "homepage": "https://github.com/ericheayn/ackermann#readme",
+  "devDependencies": {
+    "jest": "^24.1.0"
+  }
+}
